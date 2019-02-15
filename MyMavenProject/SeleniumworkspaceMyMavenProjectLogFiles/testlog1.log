@@ -1,0 +1,5 @@
+[main] INFO OHRM_Log4j - browser successfully opened
+[main] INFO OHRM_Log4j - Expected result is : Welcome Admin
+[main] INFO OHRM_Log4j - Actual result is : Welcome Admin
+[main] INFO OHRM_Log4j - logged successfully - PASS
+[main] INFO OHRM_Log4j - Logout successfully - PASS

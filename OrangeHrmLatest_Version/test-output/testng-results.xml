@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17111" started-at="2019-02-11T15:31:58Z" finished-at="2019-02-11T15:32:16Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17111" started-at="2019-02-11T15:31:58Z" finished-at="2019-02-11T15:32:16Z">
+      <class name="com.AutoIT.AutoIT_Browse_Photo">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.AutoIT.AutoIT_Browse_Photo@2ed94a8b]" name="Setup" is-config="true" duration-ms="8694" started-at="2019-02-11T21:01:58Z" finished-at="2019-02-11T21:02:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.AutoIT.AutoIT_Browse_Photo@2ed94a8b]" name="login" duration-ms="2901" started-at="2019-02-11T21:02:07Z" finished-at="2019-02-11T21:02:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="addemployee()[pri:0, instance:com.AutoIT.AutoIT_Browse_Photo@2ed94a8b]" name="addemployee" duration-ms="1249" started-at="2019-02-11T21:02:10Z" finished-at="2019-02-11T21:02:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="filldetails()[pri:0, instance:com.AutoIT.AutoIT_Browse_Photo@2ed94a8b]" name="filldetails" duration-ms="4240" started-at="2019-02-11T21:02:11Z" finished-at="2019-02-11T21:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filldetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.AutoIT.AutoIT_Browse_Photo@2ed94a8b]" name="teardown" is-config="true" duration-ms="0" started-at="2019-02-11T21:02:16Z" finished-at="2019-02-11T21:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.AutoIT.AutoIT_Browse_Photo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

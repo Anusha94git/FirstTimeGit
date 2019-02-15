@@ -1,0 +1,35 @@
+package com.Orangehrm_Database;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class OHRM_Object_Repository 
+{
+	public static void main(String[] args) throws ClassNotFoundException, SQLException
+	{
+		java.sql.Connection con=null;
+		String url1 = "jdbc:mysql://localhost:3308";
+		String dbname = "newtours";
+		String DbDriver="com.mysql.jdbc.driver";
+		String username = "root";
+		String password = "root";
+		
+		Class.forName(DbDriver).newInstance();
+		con = DriverManager.getConnection(url1+dbname, username, password);
+		java.sql.PreparedStatement psmt = con.prepareStatement("select * from newtours_register");
+		ResultSet rs = psmt.executeQuery();
+		while(rs.next())
+		{
+			System.out.println(rs.getString(1));
+			System.out.println(rs.getString(2));
+			System.out.println(rs.getString(3));
+			System.out.println(rs.getString(4));
+			
+		}
+		con.close();
+	}
+	
+}

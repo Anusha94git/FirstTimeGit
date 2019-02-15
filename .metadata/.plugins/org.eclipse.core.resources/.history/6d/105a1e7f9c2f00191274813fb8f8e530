@@ -1,0 +1,10 @@
+package com.Orangehrm_Database;
+
+public class OHRM_Object_Repository 
+{
+	public static void main(String[] args) throws ClassNotFoundException, SQLException, InstantiationException, IllegalAccessException
+	{
+		
+	}
+	
+}

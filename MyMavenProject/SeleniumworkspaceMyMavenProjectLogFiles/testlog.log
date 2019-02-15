@@ -1,0 +1,5 @@
+2019-02-10 16:47:05,905 - OHRM_Log4j -INFO - browser successfully opened
+2019-02-10 16:47:10,674 - OHRM_Log4j -INFO - Expected result is : Welcome Admin
+2019-02-10 16:47:10,675 - OHRM_Log4j -INFO - Actual result is : Welcome Admin
+2019-02-10 16:47:10,676 - OHRM_Log4j -INFO - logged successfully - PASS
+2019-02-10 16:47:12,449 - OHRM_Log4j -INFO - Logout successfully - PASS

@@ -1,0 +1,18 @@
+[main] INFO OHRM_Log4j - browser successfully opened
+[main] INFO OHRM_Log4j - Expected result is : Welcome Admin
+[main] INFO OHRM_Log4j - Actual result is : Welcome Admin
+[main] INFO OHRM_Log4j - logged successfully - PASS
+[main] INFO OHRM_Log4j - Logout successfully - PASS
+[main] INFO OHRM_Log4j - browser successfully opened
+[main] INFO OHRM_Log4j - Row size is 3
+[main] INFO OHRM_Log4j - ***********1th iteration**************** 
+[main] INFO OHRM_Log4j - Expected result is : Welcome Admin
+[main] INFO OHRM_Log4j - Actual result is : Welcome Admin
+[main] INFO OHRM_Log4j - if success
+[main] INFO OHRM_Log4j - logged successfully - PASS
+[main] INFO OHRM_Log4j - ***********2th iteration**************** 
+[main] INFO OHRM_Log4j - ***********************
+[main] INFO OHRM_Log4j - failed to login - FAIL
+[main] INFO OHRM_Log4j - ***********3th iteration**************** 
+[main] INFO OHRM_Log4j - ***********************
+[main] INFO OHRM_Log4j - failed to login - FAIL

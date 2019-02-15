@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Newtours]">
+  <test name="login test(failed)">
+    <classes>
+      <class name="com.Newtours_Using_Testng.Login_functionality">
+        <methods>
+          <include name="Setup"/>
+          <include name="Login_Functionality"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Newtours_Using_Testng.Login_functionality -->
+      <class name="com.Newtours_Using_Testng.User_Registration_Multliple_testdata">
+        <methods>
+          <include name="Setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.Newtours_Using_Testng.User_Registration_Multliple_testdata -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [Newtours] -->

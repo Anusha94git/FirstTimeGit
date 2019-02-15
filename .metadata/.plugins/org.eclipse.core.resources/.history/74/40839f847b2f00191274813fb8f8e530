@@ -1,0 +1,50 @@
+package com.DataProvider;
+
+import org.apache.log4j.Logger;
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class Newtous_Login_Test
+{
+	@DataProvider(parallel=true)
+	public Object[][] getData()
+	{
+		Object[][] data=new Object[2][3];
+		data[0][0]="tutorial";
+		data[0][1]="tutorial";
+		data[0][2]="firefox";
+		
+		data[1][0]="tutorial";
+		data[1][1]="tutorial";
+		data[1][2]="chrome";
+		
+		return data;
+		
+	}
+	
+	@Test(dataProvider="getData")
+	public void Login(String uname,String pwd,String browser)
+	{
+		System.out.println("The browser is : "+browser); 
+		DesiredCapabilities cap=null;
+		if(browser.equalsIgnoreCase("firefox"))
+		{
+			cap=DesiredCapabilities.firefox();
+			cap.setBrowserName("firefox");
+			cap.setPlatform(Platform.WINDOWS);
+			
+		}
+		else if(browser.equalsIgnoreCase("chrome"))
+		{
+			cap =DesiredCapabilities.chrome();
+			cap.setBrowserName("chrome");
+			cap.setPlatform(Platform.WINDOWS);
+		}
+		
+	//	RemoteWebDriver driver = new RemoteWebDriver(new URL(""),cap);
+	}
+
+}

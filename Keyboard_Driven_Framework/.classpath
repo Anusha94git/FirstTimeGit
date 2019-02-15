@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/jcommander.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/log4j.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/poi-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/poi-ooxml-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/poi-ooxml-schemas-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Keyboard_Driven_Framework/Library/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

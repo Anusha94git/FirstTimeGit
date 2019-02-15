@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48636" started-at="2019-02-07T07:29:03Z" finished-at="2019-02-07T07:29:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48636" started-at="2019-02-07T07:29:03Z" finished-at="2019-02-07T07:29:52Z">
+      <class name="com.OrangeHRM_TestScripts.Orangehrm_LoginPage_Test">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.OrangeHRM_TestScripts.Orangehrm_LoginPage_Test@13fee20c]" name="SetUp" is-config="true" duration-ms="9773" started-at="2019-02-07T12:59:03Z" finished-at="2019-02-07T12:59:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="LoginTest()[pri:0, instance:com.OrangeHRM_TestScripts.Orangehrm_LoginPage_Test@13fee20c]" name="LoginTest" duration-ms="37194" started-at="2019-02-07T12:59:13Z" finished-at="2019-02-07T12:59:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method status="PASS" signature="browserclose()[pri:0, instance:com.OrangeHRM_TestScripts.Orangehrm_LoginPage_Test@13fee20c]" name="browserclose" is-config="true" duration-ms="1645" started-at="2019-02-07T12:59:50Z" finished-at="2019-02-07T12:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserclose -->
+      </class> <!-- com.OrangeHRM_TestScripts.Orangehrm_LoginPage_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

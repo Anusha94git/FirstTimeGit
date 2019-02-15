@@ -1,0 +1,34 @@
+package com.GRID;
+
+import org.openqa.selenium.Platform;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+public class OHRM_LogInTest
+{
+	@Parameters("Browser")
+	
+	@Test
+	public void LogIn(String browser)
+	{
+		System.out.println("The browser is:" +browser);
+		DesiredCapabilities cap=null;
+		
+		if(browser.equalsIgnoreCase("chrome"))
+		{
+			cap =DesiredCapabilities.chrome();
+			cap.setBrowserName("chrome");
+			cap.setPlatform(Platform.WINDOWS);
+		}
+		else if(browser.equalsIgnoreCase("firefox"))
+		{
+			cap=DesiredCapabilities.firefox();
+			cap.setBrowserName("firefox");
+			cap.setPlatform(Platform.WINDOWS);
+		}
+	}
+	
+	
+
+}

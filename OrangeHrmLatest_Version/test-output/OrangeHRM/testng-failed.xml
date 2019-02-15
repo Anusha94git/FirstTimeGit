@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM]">
+  <test name="login test(failed)">
+    <classes>
+      <class name="com.Testng_Framework.Login_Functionality_Using_TestData">
+        <methods>
+          <include name="Login"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.Testng_Framework.Login_Functionality_Using_TestData -->
+    </classes>
+  </test> <!-- login test(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->

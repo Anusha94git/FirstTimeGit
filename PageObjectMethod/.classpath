@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/jcommander.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/log4j.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/poi-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/poi-ooxml-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/poi-ooxml-schemas-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/selenium-server-standalone-3.8.1.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/PageObjectMethod/Library/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

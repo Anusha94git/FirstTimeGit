@@ -1,0 +1,10 @@
+
+Feature: OrangeHRM application Login functionality test
+Scenario : LoginTest
+Given : Open firefox browser and navigate to OrangeHRM application
+When:  User enters valid userName and password and Click on SignIn button
+Then: User should be able to successfully login to the application and close
+ 
+ 
+ 
+

@@ -1,0 +1,23 @@
+package com.DataProvider;
+
+import org.testng.annotations.DataProvider;
+
+public class Newtous_Login_Test
+{
+	@DataProvider(parallel=true)
+	public Object[][] getData()
+	{
+		Object[][] data=new Object[2][3];
+		data[0][0]="tutorial";
+		data[0][1]="tutorial";
+		data[0][2]="firefox";
+		
+		data[1][0]="tutorial";
+		data[1][1]="tutorial";
+		data[1][2]="chrome";
+		
+		return data;
+		
+	}
+
+}

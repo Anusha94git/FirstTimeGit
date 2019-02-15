@@ -1,0 +1,99 @@
+package com.DataDriven_Using_Database;
+
+import java.io.IOException;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.PreparedStatement;
+
+import net.bytebuddy.implementation.InvokeDynamic.InvocationProvider.NameProvider.ForExplicitName;
+
+public class Newtours_register 
+{
+
+	WebDriver driver = null;
+	String url = "http://newtours.demoaut.com";
+	
+	@BeforeTest
+	public void Setup()
+	{
+		String browser = "Chrome";
+		if(browser.equals("Chrome"))
+		{
+		System.setProperty("webdriver.chrome.driver", "F:\\Seleniumworkspace\\webdriverexamples\\driverFiles\\chromedriver.exe");
+		driver = new ChromeDriver();
+		}
+		else if(browser.equalsIgnoreCase("firefox"))
+		{
+			System.setProperty("webdriver.gecko.driver", "F:\\Seleniumworkspace\\webdriverexamples\\driverFiles\\geckodriver.exe");
+			driver = new FirefoxDriver();
+			
+		}
+		driver.get(url);
+	}
+	
+	
+	@Test
+	public void register() throws IOException, InterruptedException 
+	{
+		driver.findElement(By.linkText("REGISTER")).click(); //identifying the REGISTER and performing click on it
+		Thread.sleep(1000);
+		java.sql.Connection con=null;
+		String url1 = "jdbc:mysql://localhost:3308";
+		String dbname = "test";
+		String DbDriver="com.mysql.jdbc.driver";
+		String username = "root";
+		String password = "root";
+		
+		Class.forName(DbDriver).newInstance();
+		con = DriverManager.getConnection(url1, username, password);
+		java.sql.PreparedStatement psmt = con.prepareStatement("select * from Newtours_register");
+		ResultSet rs = psmt.executeQuery();
+		while(rs.next())
+		{
+			driver.findElement(By.name("firstName")).sendKeys(rs.getString(1));    
+			driver.findElement(By.name("lastName")).sendKeys(rs.getString(2));
+			
+			driver.findElement(By.name("phone")).sendKeys(rs.getString(3));
+			
+
+			driver.findElement(By.name("userName")).sendKeys(rs.getString(4));
+
+			driver.findElement(By.name("address1")).sendKeys(rs.getString(5));
+
+			driver.findElement(By.name("city")).sendKeys(rs.getString(6));
+			driver.findElement(By.name("state")).sendKeys(rs.getString(7));			
+			driver.findElement(By.name("state")).sendKeys(rs.getString(8));
+			
+			driver.findElement(By.name("country")).sendKeys(rs.getString(9));
+			driver.findElement(By.name("email")).sendKeys(rs.getString(10));
+			driver.findElement(By.name("password")).sendKeys(rs.getString(11));
+			driver.findElement(By.name("confirmPassword")).sendKeys(rs.getString(12));
+			driver.findElement(By.name("register")).click();
+			
+			
+}
+		driver.navigate().back();
+		con.close();
+		
+				
+	}
+	
+		
+		@AfterTest
+		public void teardown()
+		{
+			//driver.quit();
+		}
+		
+	
+}

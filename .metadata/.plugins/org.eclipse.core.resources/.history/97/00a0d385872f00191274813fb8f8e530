@@ -1,0 +1,66 @@
+package com.DataDriven_Using_Database;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.mysql.jdbc.Connection;
+
+import net.bytebuddy.implementation.InvokeDynamic.InvocationProvider.NameProvider.ForExplicitName;
+
+public class Newtours_register 
+{
+
+	WebDriver driver = null;
+	String url = "http://newtours.demoaut.com";
+	
+	@BeforeTest
+	public void Setup()
+	{
+		String browser = "Chrome";
+		if(browser.equals("Chrome"))
+		{
+		System.setProperty("webdriver.chrome.driver", "F:\\Seleniumworkspace\\webdriverexamples\\driverFiles\\chromedriver.exe");
+		driver = new ChromeDriver();
+		}
+		else if(browser.equalsIgnoreCase("firefox"))
+		{
+			System.setProperty("webdriver.gecko.driver", "F:\\Seleniumworkspace\\webdriverexamples\\driverFiles\\geckodriver.exe");
+			driver = new FirefoxDriver();
+			
+		}
+		driver.get(url);
+	}
+	
+	
+	@Test
+	public void register() throws IOException, InterruptedException 
+	{
+		driver.findElement(By.linkText("REGISTER")).click(); //identifying the REGISTER and performing click on it
+		Thread.sleep(1000);
+		Connection con=null;
+		String url1 = "jdbc:mysql://localhost:3308";
+		String dbname = "test";
+		String DbDriver="com.mysql.jdbc.driver";
+		String username = "root";
+		String password = "root";
+		
+		Class.forName(DbDriver).newInstance();
+		
+	}
+	
+		
+		@AfterTest
+		public void teardown()
+		{
+			//driver.quit();
+		}
+		
+	
+}

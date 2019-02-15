@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/jcommander.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/log4j.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/poi-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/poi-ooxml-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/poi-ooxml-schemas-3.10-FINAL.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/selenium-server-standalone-3.13.0.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/testng-6.8.jar"/>
+	<classpathentry kind="lib" path="F:/Seleniumworkspace/Cucumber_Framework/Library/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

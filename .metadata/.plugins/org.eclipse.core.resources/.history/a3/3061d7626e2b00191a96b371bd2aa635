@@ -1,0 +1,10 @@
+Feature: OrangeHRM application Login functionality test with Multiple test data
+Scenario outline: LogInTest_Multiple
+Given Open Firefox Browser and navigate to OrangeHRM application
+When User enters valid "<userName>" and "<password>" and click on SignIn button
+Then User should be able to successfully login to the application and close
+
+Example :
+|userName|password|
+|roott|Livetech7.30|
+|hello|Livetech7.30|

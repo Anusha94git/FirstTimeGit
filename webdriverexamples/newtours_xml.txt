@@ -1,0 +1,12 @@
+<suite name ="Newtours Login">
+	<test name="login test">
+		<classes>
+			<class name = "com.Newtours_Using_Testng.Login_functionality"/>
+		</classes>
+	</test>
+	<test name="User Registration">
+		<classes>
+			<class name = "com.Newtours_Using_Testng.User_Registration_Multliple_testdata"/>
+		</classes>
+	</test>
+</suite>

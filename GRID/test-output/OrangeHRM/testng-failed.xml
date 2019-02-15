@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrangeHRM]">
+  <parameter name="Browser" value="firefox"/>
+  <test name="on firefox(failed)">
+    <parameter name="Browser" value="firefox"/>
+    <classes>
+      <class name="com.GRID.OHRM_LogInTest">
+        <methods>
+          <include name="LogIn" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.GRID.OHRM_LogInTest -->
+    </classes>
+  </test> <!-- on firefox(failed) -->
+</suite> <!-- Failed suite [OrangeHRM] -->
